@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300&family=Noto+Sans+JP:wght@100;300;500&display=swap");
+.content1 {
+  width: 100%;
+  height: 100vh;
+  background-color: #fcc;
+  opacity: 0;
+}
+
+.content2 {
+  width: 100%;
+  height: 100vh;
+  background-color: #fcc;
+  opacity: 0.3;
+}
+
+.content3 {
+  width: 100%;
+  height: 100vh;
+  background-color: #499;
+  opacity: 0.3;
+}/*# sourceMappingURL=recruit.css.map */

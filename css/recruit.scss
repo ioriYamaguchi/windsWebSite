@@ -1,0 +1,22 @@
+@use "variable";
+
+.content1 {
+    width: 100%;
+    height: 100vh;
+    background-color: #fcc;
+    opacity: 0;
+}
+
+.content2 {
+    width: 100%;
+    height: 100vh;
+    background-color: #fcc;
+    opacity: 0.3;
+}
+
+.content3 {
+    width: 100%;
+    height: 100vh;
+    background-color: #499;
+    opacity: 0.3;
+}
