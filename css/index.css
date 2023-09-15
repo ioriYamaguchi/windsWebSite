@@ -2,24 +2,38 @@
 #wrapper {
   overflow: hidden;
   height: 100vh;
+  background-image: url("../img/BG.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .panel {
   height: 100vh;
   display: flex;
 }
+.panel .back-top {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+  visibility: hidden;
+  animation: fuwafuwa 5s ease 0s infinite;
+}
+@keyframes fuwafuwa {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, -15%);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+.panel .back-top img:hover {
+  transform: scale(-1, 1);
+  transition: 0.5s cubic-bezier(0.27, 0.89, 0.32, 1.27);
+}
 .panel .content {
   height: 100vh;
-}
-
-.content1 {
-  background-color: #fff;
-}
-
-.content2 {
-  background-color: #ffffaa;
-}
-
-.content3 {
-  background-color: #aaa;
 }/*# sourceMappingURL=index.css.map */
