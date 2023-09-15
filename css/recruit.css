@@ -28,6 +28,7 @@
   flex-direction: column;
 }
 .content1 .L-content h1 {
+  color: #3b4429;
   font-weight: 600;
   mix-blend-mode: color-burn;
 }
