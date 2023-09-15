@@ -70,6 +70,7 @@ header .navbar .button:hover::before {
 }
 
 .footer {
+  overflow: hidden;
   height: 20vh;
   background-color: #3D4642;
 }
