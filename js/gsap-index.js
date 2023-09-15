@@ -22,6 +22,7 @@ window.addEventListener("load", function () {
             end: () => `+=${wrapper.offsetWidth + 800}`,
             pin: true,
             anticipatePin: 1,
+            pinSpacing: true,
             scrub: true,
         }
     });

@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #F5F0E8;
+  background-color: #f3f8fc;
 }
 body .oubun {
   font-family: "Alegreya Sans", sans-serif;
@@ -81,7 +81,7 @@ header .navbar .button:hover::before {
   align-items: center;
 }
 .footer .footer-L p {
-  color: #F5F0E8;
+  color: #f3f8fc;
 }
 .footer .footer-R {
   height: 100%;
@@ -97,5 +97,5 @@ header .navbar .button:hover::before {
   margin-right: 3rem;
   margin-bottom: 0;
   padding: 0;
-  color: #F5F0E8;
+  color: #f3f8fc;
 }/*# sourceMappingURL=style.css.map */
