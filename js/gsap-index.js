@@ -28,16 +28,6 @@ window.addEventListener("load", function () {
     });
 });
 
-// Header
-gsap.to(".navbar", {
-    autoAlpha: 1,
-    scrollTrigger: {
-        trigger: '.content2',
-        start: "right 50%",
-        scrub: true,
-        // markers: true,
-    }
-})
 // back-top
 gsap.to(".back-top", {
     autoAlpha: 1,
