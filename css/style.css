@@ -20,10 +20,13 @@ body .wabun {
 body .tategumi {
   writing-mode: vertical-rl;
 }
-body .h2 {
+body .L-text {
+  font-size: clamp(4.063rem, 5vw + 1.5rem, 8rem);
+}
+body .M-text {
   font-size: clamp(1.25rem, 2vw + 1rem, 2.813rem);
 }
-body .h3 {
+body .S-text {
   font-size: clamp(1rem, 0.8vw + 1rem, 2rem);
 }
 

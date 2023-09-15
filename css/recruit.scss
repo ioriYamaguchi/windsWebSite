@@ -1,10 +1,50 @@
 @use "variable";
 
+.BGcontent {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/BG.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+}
+
+.row {
+    width: 100%;
+    justify-content: space-evenly;
+}
+
 .content1 {
     width: 100%;
     height: 100vh;
-    background-color: #fcc;
-    opacity: 0;
+    display: flex;
+    justify-content: center;
+
+    .L-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        h1 {
+            font-weight: 600;
+            mix-blend-mode: color-burn;
+        }
+    }
+
+    .R-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .slider {
+            width: 90%;
+            height: 60%;
+            border: #499 solid 1px;
+        }
+    }
 }
 
 .content2 {
