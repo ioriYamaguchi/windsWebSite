@@ -19,6 +19,8 @@
         z-index: 2;
         visibility: hidden;
         animation: fuwafuwa 5s ease 0s infinite;
+        text-align: end;
+        padding-right: 1%;
 
         @keyframes fuwafuwa {
             0% {
@@ -35,6 +37,8 @@
         }
 
         img {
+            width: 70%;
+
             &:hover {
                 transform: scale(-1, 1);
                 transition: 0.5s cubic-bezier(0.27, 0.89, 0.32, 1.27);

@@ -18,6 +18,8 @@
   z-index: 2;
   visibility: hidden;
   animation: fuwafuwa 5s ease 0s infinite;
+  text-align: end;
+  padding-right: 1%;
 }
 @keyframes fuwafuwa {
   0% {
@@ -29,6 +31,9 @@
   100% {
     transform: translate(0, 0);
   }
+}
+.panel .back-top img {
+  width: 70%;
 }
 .panel .back-top img:hover {
   transform: scale(-1, 1);
