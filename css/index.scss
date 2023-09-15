@@ -1,0 +1,27 @@
+@use "variable";
+
+#wrapper {
+    overflow: hidden;
+    height: 100vh;
+}
+
+.panel {
+    height: 100vh;
+    display: flex;
+
+    .content {
+        height: 100vh;
+    }
+}
+
+.content1 {
+    background-color: #fff;
+}
+
+.content2 {
+    background-color: #ffaf;
+}
+
+.content3 {
+    background-color: #aaa;
+}

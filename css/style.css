@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300&family=Noto+Sans+JP:wght@100;300;500&display=swap");
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F5F0E8;
+}
+body .oubun {
+  font-family: "Alegreya Sans", sans-serif;
+  color: #3D4642;
+}
+body .wabun {
+  font-family: "Noto Sans JP", sans-serif;
+  color: #3D4642;
+  font-weight: 100;
+}
+body .tategumi {
+  writing-mode: vertical-rl;
+}
+body .h2 {
+  font-size: clamp(1.25rem, 2vw + 1rem, 2.813rem);
+}
+body .h3 {
+  font-size: clamp(1rem, 0.8vw + 1rem, 2rem);
+}
+
+header .navbar {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  visibility: hidden;
+}
+header .navbar .navbar-brand {
+  color: #3D4642;
+}
+header .navbar .navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(61,70,66,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+header .navbar .navbar-toggler {
+  border-color: #3D4642;
+}
+header .navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
+header .navbar .button {
+  color: #3D4642;
+  text-decoration: none;
+  border: none;
+  background: none;
+}
+header .navbar .button::before {
+  margin-left: auto;
+}
+header .navbar .button::after,
+header .navbar .button::before {
+  content: "";
+  width: 0%;
+  height: 0.5px;
+  background: #3D4642;
+  display: block;
+  transition: 0.5s;
+}
+header .navbar .button:hover::after,
+header .navbar .button:hover::before {
+  width: 100%;
+}
+
+.footer {
+  height: 20vh;
+  background-color: #3D4642;
+}
+.footer .footer-row {
+  height: 100%;
+}
+.footer .footer-L {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .footer-L p {
+  color: #F5F0E8;
+}
+.footer .footer-R {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .footer-R .ul-rap {
+  display: flex;
+}
+.footer .footer-R .ul-rap ul {
+  margin-right: 3rem;
+  margin-bottom: 0;
+  padding: 0;
+  color: #F5F0E8;
+}/*# sourceMappingURL=style.css.map */

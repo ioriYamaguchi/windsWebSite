@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300&family=Noto+Sans+JP:wght@100;300;500&display=swap");
+#wrapper {
+  overflow: hidden;
+  height: 100vh;
+}
+
+.panel {
+  height: 100vh;
+  display: flex;
+}
+.panel .content {
+  height: 100vh;
+}
+
+.content1 {
+  background-color: #fff;
+}
+
+.content2 {
+  background-color: #ffffaa;
+}
+
+.content3 {
+  background-color: #aaa;
+}/*# sourceMappingURL=index.css.map */

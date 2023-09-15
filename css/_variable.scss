@@ -1,0 +1,17 @@
+@charset "utf-8";
+$BG: #F5F0E8;
+$font: #3D4642;
+$wnidsGreen: #005C3F;
+
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300&family=Noto+Sans+JP:wght@100;300;500&display=swap");
+
+@mixin oubun() {
+    font-family: "Alegreya Sans", sans-serif;
+    color: $font;
+}
+
+@mixin wabun() {
+    font-family: "Noto Sans JP", sans-serif;
+    color: $font;
+    font-weight: 100;
+}
