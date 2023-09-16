@@ -2,14 +2,22 @@
 #wrapper {
   overflow: hidden;
   height: 100vh;
-  background-image: url("../img/BG.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .panel {
   height: 100vh;
   display: flex;
+}
+.panel .BG {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+.panel .BG img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 .panel .back-top {
   position: fixed;
