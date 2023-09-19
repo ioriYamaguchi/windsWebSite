@@ -15,6 +15,7 @@
 
 .row {
   width: 100%;
+  height: 100%;
   justify-content: space-evenly;
 }
 
@@ -38,7 +39,7 @@
 .content1 .R-content {
   display: flex;
   justify-content: center;
-  align-items: center;
+  flex-direction: column;
 }
 .content1 .R-content .slider {
   width: 90%;
@@ -49,8 +50,40 @@
 .content2 {
   width: 100%;
   height: 100vh;
-  background-color: #fcc;
-  opacity: 0.3;
+}
+.content2 .L-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.content2 .L-content .imamura-img {
+  width: 90%;
+  height: 70%;
+}
+.content2 .L-content .imamura-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.content2 .R-content {
+  display: flex;
+  flex-direction: column;
+}
+.content2 .R-content p {
+  padding-left: 2rem;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+.content2 .R-content h2 {
+  color: #3b4429;
+  padding-left: 2rem;
+  font-weight: 600;
+  mix-blend-mode: color-burn;
+}
+.content2 .R-content ul li {
+  font-size: clamp(1rem, 0.8vw + 0.5rem, 2rem);
 }
 
 .content3 {

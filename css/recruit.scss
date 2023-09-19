@@ -16,6 +16,7 @@
 
 .row {
     width: 100%;
+    height: 100%;
     justify-content: space-evenly;
 }
 
@@ -41,7 +42,7 @@
     .R-content {
         display: flex;
         justify-content: center;
-        align-items: center;
+        flex-direction: column;
 
         .slider {
             width: 90%;
@@ -54,8 +55,50 @@
 .content2 {
     width: 100%;
     height: 100vh;
-    background-color: #fcc;
-    opacity: 0.3;
+
+    .L-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .imamura-img {
+            width: 90%;
+            height: 70%;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+
+    .R-content {
+        display: flex;
+        flex-direction: column;
+
+        p {
+            padding-left: 2rem;
+            font-weight: 300;
+            margin-bottom: 0;
+        }
+
+        h2 {
+            color: #3b4429;
+            padding-left: 2rem;
+            font-weight: 600;
+            mix-blend-mode: color-burn;
+        }
+
+        ul {
+            li {
+
+                font-size: clamp(1rem, 0.8vw + 0.5rem, 2rem);
+            }
+        }
+
+    }
 }
 
 .content3 {
